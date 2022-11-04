@@ -1,0 +1,17 @@
+{
+    "name": "olegnaboka/cms",
+    "authors": [
+        {
+            "name": "nabocode",
+            "email": "nabocode@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core",
+            "Cms\\": "cms",
+            "Core\\DependencyInjection\\": "core/DependencyInjection"
+        }
+    }
+}
